@@ -1,0 +1,44 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.mycompany.myapp",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "vue2019",
+        "packageName": "com.mycompany.myapp",
+        "packageFolder": "com/mycompany/myapp",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "OWY5NDExMjEyM2E5ZTM4YmU0OTVkZmQ5NzNhMWEzMTE5ZTdlMmZkZWZlZWRiZWNiNmJlNzVjYzNlM2I4ZWNmNzllMGEwNDRkNGQzNGFkNTMwYjU3ODljZmU4OTA2ZmU3NGY5NTRmZTk0YWI0NmI2MGIwYTIzMzViMTA2M2VlNjI=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [
+            {
+                "name": "generator-jhipster-vuejs",
+                "version": "latest"
+            }
+        ],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "zh-cn"],
+        "blueprint": "generator-jhipster-vuejs"
+    }
+}
