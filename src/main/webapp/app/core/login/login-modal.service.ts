@@ -13,7 +13,7 @@ export class LoginModalService {
             return;
         }
         this.isOpen = true;
-        const modalRef = this.modalService.open(JhiLoginModalComponent);
+        const modalRef = this.modalService.open(JhiLoginModalComponent, { backdrop: 'static' });
         modalRef.result.then(
             result => {
                 this.isOpen = false;
