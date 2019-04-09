@@ -1,0 +1,14 @@
+{
+    "name": "Company",
+    "fields": [],
+    "relationships": [],
+    "changelogDate": "20190409141624",
+    "entityTableName": "company",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

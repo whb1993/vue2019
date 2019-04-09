@@ -1,0 +1,14 @@
+{
+    "name": "Article",
+    "fields": [],
+    "relationships": [],
+    "changelogDate": "20190409141622",
+    "entityTableName": "article",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
