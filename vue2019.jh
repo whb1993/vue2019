@@ -1,0 +1,12 @@
+
+entity Article
+entity Comment
+entity Company
+entity User {
+  name String required
+  cName String pattern(/^[\u4e00-\u9fa5]{1,100}$/)
+  address String maxlength(100)
+  age Integer required min(1)
+  phoneNum Integer required min(10000000000) max(99999999999)
+  email String required pattern(/^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$/)
+}
