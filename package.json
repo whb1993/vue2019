@@ -121,7 +121,7 @@
         ]
     },
     "scripts": {
-        "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+        "dev": "webpack-dev-server --inline --progress --config vue-webpack/webpack.dev.conf.js",
         "prettier:format": "prettier --write \"{,src/**/}*.{md,json,ts,css,scss}\"",
         "lint": "tslint --project tsconfig.json -e 'node_modules/**'",
         "lint:fix": "npm run lint -- --fix",
